@@ -1,0 +1,113 @@
+/* Register.css */
+
+/* General styling */
+body {
+  background-color: #ffffff; /* Dark background color */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  left:10px
+}
+
+/* Form container styling */
+.rule {
+  width: 370px;
+  height: 0px;
+  border-radius: 10px;
+  background-color: violet;
+  margin: 20px auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0c007d; /* Dark Blue */
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+/* Title styling */
+.title {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Heading styles */
+.name1,
+.name2 {
+  color: white;
+  text-align: center;
+}
+
+/* Individual input field styling */
+.Firstname,
+.Lastname,
+.email,
+.password,
+.confirmpassword {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+/* Image positioning in the Firstname section */
+.Firstname img,
+.Lastname img,
+.email img,
+.password img,
+.confirmpassword img {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 8px;
+  top: 8px;
+}
+
+/* Email section styling */
+.email {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+/* Password and Confirm Password section styling */
+.password,
+.confirmpassword {
+  position: relative;
+}
+
+/* Radio button and label styling */
+.Gender {
+  color: white;
+  margin: 10px 0;
+}
+
+/* Button styling */
+.Button {
+  width: 100%;
+  background-color: #4CAF50; 
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+.Button:hover {
+  background-color: #45a049;
+}
+
+.Button:active {
+  background-color: #3e8e41;
+}
